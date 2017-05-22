@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <title>Parcel</title>
+    <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css'>
+  </head>
+  <body>
+    <h1>Enter your parcel information below to get shipping costs!</h1>
+    <form action='/price'>
+      <div class='form-group'>
+        <label for='height'>The height of your parcel</label>
+        <input id='height' name='height' class='form-control' type='text'>
+      </div>
+      <div class='form-group'>
+        <label for='width'>The width of your parcel</label>
+        <input id='width' name='width' class='form-control' type='text'>
+      </div>
+      <div class='form-group'>
+        <label for='depth'>The depth of your parcel</label>
+        <input id='depth' name='depth' class='form-control' type='text'>
+      </div>
+      <div class='form-group'>
+        <label for='weight'>The weight of your parcel</label>
+        <input id='weight' name='weight' class='form-control' type='text'>
+      </div>
+      <button type='submit' class='btn'>Calculate shipping cost!</button>
+    </form>
+  </body>
+</html>
